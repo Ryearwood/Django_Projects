@@ -1,0 +1,5 @@
+wheel
+setuptools
+Django
+mysql
+mysql-connector-python
