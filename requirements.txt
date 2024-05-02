@@ -3,3 +3,4 @@ setuptools
 Django
 mysql
 mysql-connector-python
+pymysql

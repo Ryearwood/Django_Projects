@@ -1,5 +1,6 @@
 .DS_Store
 *.vscode
 /venv
-djangocrm/djangocrm/__pycache__/settings.cpython-312.pyc
-djangocrm/djangocrm/__pycache__/__init__.cpython-312.pyc
+djangocrm/djangocrm/__pycache__/
+djangocrm/website/__pycache__/
+djangocrm/website/migrations/__pycache__/
