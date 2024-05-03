@@ -1,6 +1,0 @@
-.DS_Store
-*.vscode
-/venv
-djangocrm/djangocrm/__pycache__/
-djangocrm/website/__pycache__/
-djangocrm/website/migrations/__pycache__/
