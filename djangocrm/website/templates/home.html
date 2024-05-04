@@ -26,8 +26,7 @@
     {% if records %}
       {% for record in records %}
         <tr>
-          <td>{{record.first_name}}</td>
-          <td>{{record.last_name}}</td>
+          <td>{{record.first_name}} {{record.last_name}}</td>
           <td>{{record.email}}</td>
           <td>{{record.phone}}</td>
           <td>{{record.address}}</td>
@@ -35,7 +34,7 @@
           <td>{{record.state}}</td>
           <td>{{record.zipcode}}</td>
           <td>{{record.created_at}}</td>
-          <td>{{record.id}}</td>
+          <td><a href="{% url 'record' record.id %}">{{record.id}}</a></td>
         </tr>
       {% endfor %}
     {% endif %}
